@@ -1,5 +1,4 @@
 package cn.schen;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 import static java.util.stream.Collectors.toList;
@@ -10,7 +9,7 @@ import static java.util.stream.Collectors.toList;
  */
 public class MainApp {
     public static void main(String[] args) {
-        List<String> collected = new ArrayList<>();
+        List<String> collected ;
         //map操作
         collected = Stream.of("a","b","c").map(str->{
             return str.toUpperCase();
