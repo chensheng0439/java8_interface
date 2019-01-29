@@ -7,7 +7,7 @@ import static java.util.stream.Collectors.toList;
  * @Date: 2019/1/29 11:40
  * @Description:
  */
-public class MainApp {
+public class Map {
     public static void main(String[] args) {
         List<String> collected ;
         //map操作
